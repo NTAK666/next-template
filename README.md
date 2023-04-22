@@ -1,24 +1,24 @@
-# Next.js + Turbopack App Directory Playground
+# Next.js + Turbopack App Directory
 
-[Turbopack](https://turbo.build/pack) is a new incremental bundler optimized for JavaScript and TypeScript, written in Rust by the creators of Webpack and Next.js at [Vercel](https://vercel.com). On large applications Turbopack updates 10x faster than Vite and 700x faster than Webpack ([benchmark](https://turbo.build/pack/docs/benchmarks)). For the biggest applications the difference grows even more stark with updates up to 20x faster than Vite.
+This not finished yet, but it's a start.
 
-This playground is a mirror of the [Next.js v13 App Directory Playground](https://github.com/vercel/app-playground), but uses Turbopack as the Next.js development server (`next dev --turbo`).
+I will be adding more to this as I go along.
 
-**As a reminder, Turbopack is currently in alpha and not yet ready for production. We appreciate your ongoing support as we work to make it ready for everyone.**
+## Getting Started
 
-## Running Locally
+Stack used:
 
-1. Install dependencies: `yarn`
-1. Start the dev server: `yarn dev`
+- Next.js
+- Turbopack
+- TailwindCSS
+- TypeScript
 
-**Note:** The playground uses [Tailwind CSS](https://tailwindcss.com) via [PostCSS](https://turbo.build/pack/docs/features/css#postcss).
+First, run the development server:
 
-For more information, see: https://turbo.build/pack/docs/features/css#tailwind-css
+```bash
+pnpm intsall
+pnpm dev
+```
 
-## Documentation
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-https://nextjs.link/with-turbopack
-
-## Providing Feedback
-
-https://nextjs.link/turbopack-feedback
